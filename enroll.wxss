@@ -1,0 +1,89 @@
+/**index.wxss**/
+
+page {
+  display: block;
+  min-height: 100%;
+  background-color: #f3f3f4;
+}
+
+.bgcolor {
+  background-color: #fff;
+  border: 4rpx solid #e5e6e7;
+  margin-top: 100rpx;
+  width: 80%;
+  padding: 14rpx;
+  border-radius: 10rpx;
+}
+
+.bgcolor:active {
+  border: 4rpx solid #1ab394;
+}
+
+.btnw {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 50rpx;
+  background-color: #1ab394;
+  width: 85%;
+  color: #fff;
+  height: 80rpx;
+  font-size: 34rpx;
+}
+
+.getcode {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 85%;
+  margin-top: 50rpx;
+  height: 80rpx;
+  font-size: 34rpx;
+}
+
+.inp {
+  border: 0px;
+}
+
+.maint {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iptbgcolor {
+  background-color: #f3f3f4;
+  border-bottom: 4rpx solid #1ab394;
+  margin-top: 50rpx;
+  width: 70%;
+}
+
+.inpt {
+  background-color: #f3f3f4;
+  border-bottom: 4rpx solid #1ab394;
+  margin-top: 50rpx;
+  width: 70%;
+}
+
+.ipbgcolor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.center {
+  width: 100%;
+}
+
+.getcodse {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 85%;
+  margin-top: 50rpx;
+  height: 80rpx;
+  font-size: 34rpx;
+}

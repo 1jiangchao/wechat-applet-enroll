@@ -1,0 +1,30 @@
+<view style="margin-top:40rpx;">
+  <view class="maint">
+    <form class="center" bindsubmit="formSubmit">
+      <view class="ipbgcolor">
+        <input placeholder="用户名" name="username" class="inpt" />
+      </view>
+      <view class="ipbgcolor">
+        <input placeholder="请输入密码" password='true' name="newpwd" class="inpt" />
+      </view>
+      <view class="ipbgcolor">
+        <input placeholder="请再次输入密码" password='true' name="pwd" class="inpt" />
+      </view>
+      <view class="ipbgcolor">
+        <input placeholder="手机号" name="mobile" bindinput='getInputPhoneNumber' maxlength="11" class="inpt" type="number" />
+      </view>
+      <view class="ipbgcolor">
+        <input placeholder="验证码" class="inpt" name="captcha_code" />
+      </view>
+      <view class="btnw">
+        <button class="getcodse" wx:if="{{isGet == false}}" bindtap='getCode'>获取验证码</button>
+        <button class="getcode" wx:if="{{isGet == true}}">{{sec}}s后重新发送 </button>
+
+      </view>
+      <view class="btnw">
+        <button type='primary' class='btn' form-type="submit" bindtap="tologin" data-enroll="{{enroll}}">注册</button>
+      </view>
+    </form>
+  </view>
+
+</view>
